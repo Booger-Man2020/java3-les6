@@ -1,10 +1,12 @@
+package Main;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Array2 {
+public class Task3 {
     public static void main(String[] args) {
-        List ints = Collections.singletonList(cheackArray(Arrays.asList(1, 1, 3, 4, 1, 4, 4, 1, 4)));
+        List ints = Collections.singletonList(cheackArray(Arrays.asList(1, 1, 4, 4, 1, 4, 4, 1, 4)));
         System.out.println(ints);
 
     }
